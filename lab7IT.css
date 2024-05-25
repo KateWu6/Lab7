@@ -1,0 +1,39 @@
+body{
+  background-color: blanchedalmond;
+  font-family: 'Times New Roman', Times, serif;
+}
+h1{
+  color: brown;
+  font-size: 14px;
+}
+p1{
+font-weight: 900;
+color: blue;
+}
+p2{
+  font-weight: 900;
+  color: red;
+}
+.textcols{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  widch: 100%;
+}
+.textcols-item{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  height:48%;
+  background: #fff2e1;
+}
+.textcols-item+.textcols-item{
+  margin-left: 4%;
+}
+table{
+  border-collapse: separate;
+  background-color: aliceblue;
+  border-color: brown;
+}
+
